@@ -2,7 +2,7 @@
 
 [Playlist Link](https://www.youtube.com/playlist?list=PLqrGn5CSpZ-dndAaQvLXf8fgp-XB3OM_f)
 
-## Timelapse
+## Playlist
 - 01 - 8:37 - İnternet Nasıl Çalışır ?
 - 02 - 2:46 - Text Editörleri Hakkında
 - 03 - 7:26 - HTML5 Giriş - Tanıtım
