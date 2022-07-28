@@ -1,8 +1,9 @@
 # HTML5 ile Web Programlama Temelleri
 
+## Playlist
+
 [Playlist Link](https://www.youtube.com/playlist?list=PLqrGn5CSpZ-dndAaQvLXf8fgp-XB3OM_f)
 
-## Playlist
 - 01 - 8:37 - İnternet Nasıl Çalışır ?
 - 02 - 2:46 - Text Editörleri Hakkında
 - 03 - 7:26 - HTML5 Giriş - Tanıtım
