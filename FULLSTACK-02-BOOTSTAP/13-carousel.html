@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/bootstrap-3.3.7/dist/css/bootstrap.min.css">
+    
+    <script src="/assets/jquery/jquery-3.6.0.min.js"></script>
+    <script src="/assets/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <a href="/">Kök</a>
+    </div>
+    <hr>
+
+    
+    <div class="container">
+        <h2>Carousel</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1" ></li>
+                <li data-target="#myCarousel" data-slide-to="2" ></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="https://cdn.pixabay.com/photo/2019/08/30/08/55/rain-4440791_960_720.jpg" alt="" style="width: 100%;">
+                </div>
+                <div class="item">
+                    <img src="https://cdn.pixabay.com/photo/2021/10/06/15/05/bathroom-6686057_960_720.jpg" alt="" style="width: 100%;">
+                </div>
+                <div class="item">
+                    <img src="https://cdn.pixabay.com/photo/2022/01/02/19/43/train-6910973_960_720.jpg" alt="" style="width: 100%;">
+                </div>
+            </div>
+
+            <!-- controllers -->
+            <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only"></span>
+            </a>
+            <a href="#myCarousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only"></span>
+            </a>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
