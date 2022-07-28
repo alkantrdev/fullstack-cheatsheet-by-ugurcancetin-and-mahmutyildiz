@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Object Model</title>
+</head>
+<body>
+    <h1>Dom - Document Object Model</h1>
+    <ul>
+        <li id="myid">Madde 1</li>
+        <li class="myclass">Madde 2</li>
+        <li class="myclass">Madde 3</li>
+    </ul>
+
+
+
+<script>
+    
+    var elemId = document.getElementById("myid");
+    var elemClass = document.getElementsByClassName("myclass");
+    var elemTag = document.getElementsByTagName("ul");
+
+    var elemQuerySelector = document.querySelector("#myid");
+    var elemQuerySelector2 = document.querySelector(".myclass");
+
+    var elemQuerySelectorAll = document.querySelectorAll(".myclass");
+
+    console.log(elemId);
+    console.log(elemClass);
+    console.log(elemTag);
+    console.log(elemQuerySelector);
+    console.log(elemQuerySelector2);
+    console.log(elemQuerySelectorAll);
+
+    var body1 = document.getElementsByClassName(".body");
+    var body2 = document.getElementsByTagName("body");
+    console.log(body1);
+    console.log(body2);
+
+    var classlist = document.querySelectorAll("ul .myclass");
+    console.log(classlist[1].innerHTML);
+
+</script>
+
+
+</body>
+</html>

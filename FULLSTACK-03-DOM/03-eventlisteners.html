@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Object Model</title>
+</head>
+
+<body>
+
+<h1 id="baslik">Dom - Document Object Model</h1>
+<p>Lazim olur</p>
+
+<button>Click Me!</button>
+
+<ul>
+    <li id="myid">Madde 1</li>
+    <li class="myclass">Madde 2</li>
+    <li class="myclass">Madde 3</li>
+</ul>
+
+<a href="https://google.com"> To Google!</a>
+
+<script>
+
+    var h1 = document.querySelector("#baslik");
+    h1.addEventListener("click", function () {
+        if (this.style.color === "red") {
+            this.style.color = "blue";
+        } else {
+            this.style.color = "red";
+        }
+    });
+
+    var btn = document.querySelector("button");
+
+    btn.addEventListener("click", function () {
+        alert("You've just clicked!");
+    });
+
+    var listItems = document.querySelectorAll("li");
+    
+    for (var i = 0; i< listItems.length; i++) {
+        listItems[i].addEventListener("click", function() {
+            if (this.style.color === "red") {
+            this.style.color = "blue";
+        } else {
+            this.style.color = "red";
+        }
+        });
+    }
+
+
+</script>
+
+
+</body>
+
+</html>

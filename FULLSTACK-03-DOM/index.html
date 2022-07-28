@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Object Model</title>
+
+</head>
+
+<body>
+
+    <div id="div1">
+        <p id="p1">Paragraf 1</p>
+        <p id="p2">Paragraf 2</p>    
+    </div>
+    
+    <script type="text/javascript">
+
+        // var parag = document.createElement("p");
+        // var node = document.createTextNode("Bu yeni paragraftır.");
+        // parag.appendChild(node);
+
+        // var div = document.getElementById("div1");
+        // div.appendChild(parag);
+    
+
+        var parent = document.getElementById("div1");
+        var child = document.getElementById("p2");
+        var parag = document.createElement("p");
+        var node = document.createTextNode("Bu yeni paragraftır.");
+
+        parag.appendChild(node);
+        parent.replaceChild(parag, child);
+
+
+    </script>
+
+</body>
+
+</html>
