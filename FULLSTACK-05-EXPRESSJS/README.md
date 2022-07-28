@@ -19,16 +19,16 @@
 
 ## Code and Commands
 
-nvm install ?9.6.0
-npm install --save express@4.15.4
-npm install cat-me@1.0.3
+nvm install ?9.6.0  
+npm install --save express@4.15.4  
+npm install cat-me@1.0.3  
 
-npm init
-npm install --save express@4.15.4
-npm install --save ejs@2.5.7
+npm init  
+npm install --save express@4.15.4  
+npm install --save ejs@2.5.7  
 
-npm install -g ejs-lint
-npm install --save body-parser@1.17.2   (body parse ediyor)
+npm install -g ejs-lint  
+npm install --save body-parser@1.17.2   (body parse ediyor)  
 
-expressjs/multer github v: 1.3.0 (dosya yulemek icin)
-npm install --save multer@1.3.0
+expressjs/multer github v: 1.3.0 (dosya yulemek icin)  
+npm install --save multer@1.3.0  
