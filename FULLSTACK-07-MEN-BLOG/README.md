@@ -52,7 +52,7 @@ npm install --save passport@0.4.0
 npm install --save passport-local@1.0.0  
 npm install --save express-session@1.15.6  
 
-<script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>  
+`<script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>`  
 
 // Mongo  
 
