@@ -1,0 +1,15 @@
+<% include partials/header.ejs %>
+
+<h1>Ziyaret Edilecek Şehirler</h1>
+<% sehirler.forEach(function(sehir){ %>
+    <li> <%=sehir%> </li>  
+<% }); %>
+<br/>
+<form action="/sehirekle" method="post">
+    <input type="text" name="yenisehir" placeholder="sehir ismi">
+    <button type="submit">Ekle</button>
+</form>
+
+
+
+<% include partials/footer.ejs %>

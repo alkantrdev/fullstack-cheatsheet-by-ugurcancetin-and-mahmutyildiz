@@ -1,0 +1,13 @@
+<% include partials/header.ejs %>
+
+<p>Bu test.ejs responsu'dur</p>
+<p>Param: <%= testParametresi %> </p>
+
+
+<% if (testParametresi.toLowerCase() === "baska") { %>
+    <p>Baska neler neler var?</p>
+<% } else { %>
+    <p>Yok valla, olsa virmem mi</p>
+<% } %>
+
+<% include partials/footer.ejs %>
