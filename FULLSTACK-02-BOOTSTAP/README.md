@@ -1,8 +1,9 @@
 # Bootstrap ile Ön Yüz Tasarımı
 
-[Playlist Link](https://www.youtube.com/playlist?list=PLqrGn5CSpZ-feoN_stEaK95s4k_u_UsPC)
-
 ## Playlist
+
+[Link](https://www.youtube.com/playlist?list=PLqrGn5CSpZ-feoN_stEaK95s4k_u_UsPC)
+
 - 01 - 12:15 - Bootstrap Intro
 - 02 - 13:01 - Bootstrap Grid System
 - 03 - 04:40 - Bootstrap Images
