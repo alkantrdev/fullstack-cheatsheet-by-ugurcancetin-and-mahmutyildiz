@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.container {
+          width: 100%;
+        }
+        header, footer {
+            padding: 1em;
+            color: peru;
+            background-color: antiquewhite;
+            text-align: center;
+        }
+        nav {
+            float: left;
+            max-width: 150px;
+            margin: 0;
+            padding: 1em;
+        }
+        article {
+            margin-left: 170px;
+            padding: 1em;
+            border-left: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <form action="">
+        <fieldset>
+            <legend>Kişisel Bilgiler:</legend>
+            Isminiz: <br>
+            <input type="text" name="isim">
+            <br>
+            Soyisminiz: <br>
+            <input type="text" name="soyisim">
+            
+            <br>
+            <textarea name="mesaj" id="mesaj" cols="30" rows="10" placeholder="Lütfen mesajinizi yaziniz"></textarea>            
+            
+            <br>
+            <select name="markalar" id="markalar">
+                <option value="1">Volvo</option>
+                <option value="2">Opel</option>
+                <option value="3">Audi</option>
+            </select>
+            <br><br>
+            Ulke seçiniz: <br>
+            <input list="ulkeler" name="ulkeler">
+            <datalist id="ulkeler">
+                <option value="Turkiye"></option>
+                <option value="Almanya"></option>
+                <option value="Macaristan"></option>
+            </datalist>
+            
+            
+            <br><br>
+
+            <input type="submit">
+        </fieldset>
+    </form>
+
+    <br>
+<hr>
+<br>
+
+
+    <form action="">
+        Isim:
+        <input type="text" name="isim" value="" placeholder="isim gir">
+        <br/><br>
+        Soyisim:
+        <input type="text" name="soyisim" value="" placeholder="soyisim gir">
+        <button>Gonder</button>
+    </form>
+
+</body>
+
+</html>

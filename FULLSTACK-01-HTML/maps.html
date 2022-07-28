@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.container {
+          width: 100%;
+        }
+        header, footer {
+            padding: 1em;
+            color: peru;
+            background-color: antiquewhite;
+            text-align: center;
+        }
+        nav {
+            float: left;
+            max-width: 150px;
+            margin: 0;
+            padding: 1em;
+        }
+        article {
+            margin-left: 170px;
+            padding: 1em;
+            border-left: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Google Maps -->
+    <h2>Google Maps</h2>
+    <h4>Plain copy</h4>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.3462624497784!2d28.812265616459094!3d41.0395563254463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa4f2e64f4ce3%3A0xb48957837d06243d!2sTora%20Petrol!5e0!3m2!1sen!2str!4v1656929029846!5m2!1sen!2str"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <br>
+    <h4>Api Enabled</h4>
+    <div id="mapId" style="width:600px; height: 400px;">
+    </div>
+    <script>
+        function myMap() {
+            var mapOptions = {
+                // istanbul
+                center: new google.maps.LatLng(41.0,28.9), 
+                zoom: 10,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            };
+            var map = new google.maps.Map(document.getElementById("mapId"), mapOptions);
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+
+
+</body>
+
+</html>
