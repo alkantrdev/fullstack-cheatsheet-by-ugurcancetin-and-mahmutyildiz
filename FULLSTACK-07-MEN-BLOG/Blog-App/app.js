@@ -20,7 +20,7 @@ var siteRoutes = require('./routes/siteRoutes'),
 
 
 // AppConfig
-mongoose.connect("mongodb://localhost/MyBlogApp");
+mongoose.connect("mongodb://localhost:27001/mahmutugurcan-blogapp-db");
 app.set('view engine','ejs');   
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended:true}));
